@@ -1,0 +1,68 @@
+
+
+<div class="container">
+
+  <div *ngIf="isUnauthorized && isLoaded">
+    <p>You are not authorized to view this page!</p>
+  </div>
+
+
+  <div *ngIf="!isUnauthorized && isLoaded">
+
+    <h3>
+      Manage Configuration
+      <button class="btn btn-info float-right" (click)="addNewConfig()">Add New</button>
+    </h3>
+
+    <table class="table table-striped tblManageConfig">
+      <thead>
+        <tr>
+          <th>Config Name</th>
+          <th>Config Type</th>
+          <th>URL</th>
+          <th>Created By</th>
+          <th>Created On</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let config of configs | slice: (page-1) * pageSize : (page-1) * pageSize + pageSize">
+          <td>{{config.configName}}</td>
+          <td>{{config.configType}}</td>
+          <td>{{config.url}}</td>
+          <td>{{config.createdBy}}</td>
+          <td>{{config.createdOn}}</td>
+          <td>
+            <!--<span class="glyphicon glyphicon-edit" (click)="open(true, config)" >
+    Edit
+  </span>-->
+            <div ngbDropdown>
+              <button class="btn " ngbDropdownToggle>
+                <app-custom-icon type="three-dots"></app-custom-icon>
+              </button>
+              <div ngbDropdownMenu>
+                <button ngbDropdownItem (click)="editConfig(config)">
+                  <app-custom-icon type="edit" class="option-icon"></app-custom-icon>Edit
+                </button>
+                <!--<button ngbDropdownItem (click)="detailsConfig(config)">Details</button>-->
+                <button ngbDropdownItem (click)="deleteConfig(config)">
+                  <app-custom-icon type="trash" class="option-icon"></app-custom-icon>Delete
+                </button>
+              </div>
+            </div>
+
+            <!--<button class="btn btn-primary" (click)="editConfig(config)">Edit</button>
+  <button class="btn btn-warning" (click)="deleteConfig(config)">Delete</button>-->
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <ngb-pagination [(page)]="page"
+                    [pageSize]="pageSize"
+                    [collectionSize]="configs.length"></ngb-pagination>
+
+  </div>
+
+</div>

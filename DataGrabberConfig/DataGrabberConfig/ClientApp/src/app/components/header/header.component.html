@@ -1,0 +1,38 @@
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+  <a class="navbar-brand" href="#">Data Grabber Demo</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/manage-config" routerLinkActive='active'>Manage Config</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/create-config" routerLinkActive='active'>Create Config</a>
+      </li>
+      <li class="nav-item" *ngIf="isAdmin">
+        <a class="nav-link" routerLink="/manage-users" routerLinkActive='active'>Manage Users</a>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item" *ngIf="!loginUser">
+        <a class="nav-link" routerLink="/sign-up" routerLinkActive='active'>Sign Up</a>
+      </li>
+      <li class="nav-item" *ngIf="!loginUser">
+        <a class="nav-link" routerLink="/login" routerLinkActive='active'>Sign In</a>
+      </li>
+
+      <li class="nav-item" *ngIf="loginUser">
+        <a class="navbar-text">Welcome {{loginUser}}</a>
+      </li>
+      <li class="nav-item float-right" *ngIf="loginUser">
+        <a class="nav-link cursor-pointer" (click)="Logout()">Logout</a>
+      </li>
+    </ul>
+  </div>
+</nav>

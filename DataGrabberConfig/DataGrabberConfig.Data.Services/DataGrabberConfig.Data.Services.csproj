@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataGrabberConfig.Logger\DataGrabberConfig.Logger.csproj" />
+    <ProjectReference Include="..\DataGrabberConfig.Services\DataGrabberConfig.Services.csproj" />
+    <ProjectReference Include="..\DataGrabberConfig.Utility\DataGrabberConfig.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+.container {
+  margin-top: 80px;
+}
+
+.tblManageUsers{
+  margin-top: 2em;
+}
+
+ngb-pagination {
+  float:right;
+}
+
+.option-icon {
+  margin-right: 10px !important;
+  margin-bottom: 3px !important;
+}

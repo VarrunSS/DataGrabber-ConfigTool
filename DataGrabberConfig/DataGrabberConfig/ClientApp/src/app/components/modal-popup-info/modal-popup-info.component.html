@@ -1,0 +1,17 @@
+
+
+<div class="modal-header">
+  <h4 class="modal-title">{{alert.title}}</h4>
+  <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+
+  <div *ngIf="alert.message">
+    <ngb-alert [dismissible]="false" [type]="alert.type">{{ alert.message }}</ngb-alert>
+  </div>
+
+</div>
+
+

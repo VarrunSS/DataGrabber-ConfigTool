@@ -1,0 +1,62 @@
+
+
+<form #userDetailsForm="ngForm" (ngSubmit)="OnSubmit(userDetailsForm)">
+  <div class="modal-header">
+    <h4 class="modal-title">{{isEditMode ? "Edit User" : "Add User"}}</h4>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <div class="form-group">
+
+      <input #userID="ngModel" [(ngModel)]="user.userID" type="hidden" name="userID" id="userID">
+      <input #role="ngModel" [(ngModel)]="user.role" type="hidden" name="role" id="role">
+
+      <label for="name">First Name</label>
+      <input #firstName="ngModel" [(ngModel)]="user.firstName" type="text" autocomplete="nope"
+             name="firstName" id="firstName" class="form-control" placeholder="Enter your first name" required>
+      <small id="firstNameHelp" class="form-text text-muted">Enter your first name</small>
+
+      <label for="name">Last Name</label>
+      <input #lastName="ngModel" [(ngModel)]="user.lastName" type="text" autocomplete="nope"
+             name="lastName" id="lastName" class="form-control" placeholder="Enter your last name" required>
+      <small id="nameHelp" class="form-text text-muted">Enter your last name</small>
+      
+      <label for="name">User Name</label>
+      <input #userName="ngModel" [(ngModel)]="user.userName" type="text" autocomplete="nope"
+             name="userName" id="userName" class="form-control" placeholder="Enter your user name" required>
+      <small id="nameHelp" class="form-text text-muted">Enter your user name</small>
+
+      <label [attr.data-error]="Password.errors!=null?(Password.errors.required?'Required field!':'Minimum 3 characters needed'):''">Password</label>
+      <input #Password="ngModel" [(ngModel)]="user.password" type="password" autocomplete="nope"
+             name="password" id="password" class="form-control" minlength="3" required>
+      <small class="form-text text-muted">Enter your  password</small>
+
+      <label for="name">Email Address</label>
+      <input #emailAddress="ngModel" [(ngModel)]="user.emailAddress" [pattern]="emailPattern" type="text" autocomplete="nope"
+             name="emailAddress" id="emailAddress" class="form-control" placeholder="Enter your email address" required>
+      <small id="nameHelp" class="form-text text-muted">Enter your email address</small>
+
+
+      <!--<label *ngFor="let option of radioOptions">
+        <input type="radio" name="role" class="form-control" (click)="user.role = option" #role="ngModel" [(ngModel)]="user.role"
+               [checked]="option === user.role">{{option}}
+      </label>-->
+
+      <div *ngIf="showMessage">
+        <ngb-alert [type]="alert.type">{{ alert.message }}</ngb-alert>
+      </div>
+
+    </div>
+
+
+  </div>
+  <div class="modal-footer">
+    <!--<button type="button" class="btn btn-outline-dark" (click)="activeModal.close('Close click')">Close</button>-->
+    <button [disabled]="!userDetailsForm.valid" class="btn btn-primary" type="submit">
+      {{isEditMode ? "Update" : "Create"}}
+    </button>
+  </div>
+
+</form>

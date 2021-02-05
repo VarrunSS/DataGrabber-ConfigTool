@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+.cursor-pointer {
+  cursor:pointer !important;
+}
+
+.pl-15{
+  padding-left:15px;
+}
+
+.c-ml-7{
+  margin-left:7px!important;
+}

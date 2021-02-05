@@ -1,0 +1,203 @@
+
+Log Entry : 11:27:13 AM Thursday, July 2, 2020
+  :
+  :Exception in DataAccess; Message: Error converting data type nvarchar to int.; Line no: 436; Method: GetConfiguration
+-------------------------------
+
+Log Entry : 11:27:43 AM Thursday, July 2, 2020
+  :
+  :Exception in DataAccess; Message: Error converting data type nvarchar to uniqueidentifier.; Line no: 191; Method: GetUser
+-------------------------------
+
+Log Entry : 11:27:54 AM Thursday, July 2, 2020
+  :
+  :Exception in DataAccess; Message: Error converting data type nvarchar to int.; Line no: 436; Method: GetConfiguration
+-------------------------------
+
+Log Entry : 11:28:09 AM Thursday, July 2, 2020
+  :
+  :Exception in DataAccess; Message: Error converting data type nvarchar to uniqueidentifier.; Line no: 191; Method: GetUser
+-------------------------------
+
+Log Entry : 11:28:55 AM Thursday, July 2, 2020
+  :
+  :Exception in DataAccess; Message: Error converting data type nvarchar to uniqueidentifier.; Line no: 191; Method: GetUser
+-------------------------------
+
+Log Entry : 11:30:59 AM Thursday, July 2, 2020
+  :
+  :Exception in DataAccess; Message: Error converting data type nvarchar to int.; Line no: 436; Method: GetConfiguration
+-------------------------------
+
+Log Entry : 11:32:24 AM Thursday, July 2, 2020
+  :
+  :Exception in DataAccess; Message: Error converting data type nvarchar to int.; Line no: 436; Method: GetConfiguration
+-------------------------------
+
+Log Entry : 11:36:28 AM Thursday, July 2, 2020
+  :
+  :Exception in DataAccess; Message: Error converting data type nvarchar to int.; Line no: 436; Method: GetConfiguration
+-------------------------------
+
+Log Entry : 11:36:49 AM Thursday, July 2, 2020
+  :
+  :Exception in DataAccess; Message: Error converting data type nvarchar to int.; Line no: 436; Method: GetConfiguration
+-------------------------------
+
+Log Entry : 12:17:27 PM Thursday, July 2, 2020
+  :
+  :Exception in DataAccess; Message: Error converting data type nvarchar to uniqueidentifier.; Line no: 191; Method: GetUser
+-------------------------------
+
+Log Entry : 12:20:39 PM Thursday, July 2, 2020
+  :
+  :Exception in DataAccess; Message: Error converting data type nvarchar to uniqueidentifier.; Line no: 191; Method: GetUser
+-------------------------------
+
+Log Entry : 1:13:09 PM Thursday, July 2, 2020
+  :
+  :Exception in DataAccess; Message: UserID; Line no: 83; Method: AuthenticateUser
+-------------------------------
+
+Log Entry : 10:29:16 AM Friday, July 3, 2020
+  :
+  :Exception in DataAccess; Message: Object must implement IConvertible.; Line no: 141; Method: GetAllUsers
+-------------------------------
+
+Log Entry : 11:29:32 AM Friday, July 3, 2020
+  :
+  :Exception in DataAccess; Message: Object must implement IConvertible.; Line no: 141; Method: GetAllUsers
+-------------------------------
+
+Log Entry : 12:44:38 PM Friday, July 3, 2020
+  :
+  :Exception in DataAccess; Message: Object must implement IConvertible.; Line no: 141; Method: GetAllUsers
+-------------------------------
+
+Log Entry : 12:49:15 PM Friday, July 3, 2020
+  :
+  :Exception in DataAccess; Message: Object must implement IConvertible.; Line no: 141; Method: GetAllUsers
+-------------------------------
+
+Log Entry : 12:50:27 PM Friday, July 3, 2020
+  :
+  :Exception in DataAccess; Message: Object must implement IConvertible.; Line no: 141; Method: GetAllUsers
+-------------------------------
+
+Log Entry : 12:59:37 PM Friday, July 3, 2020
+  :
+  :Exception in DataAccess; Message: Error converting data type nvarchar to uniqueidentifier.; Line no: 193; Method: GetUser
+-------------------------------
+
+Log Entry : 12:59:47 PM Friday, July 3, 2020
+  :
+  :Exception in DataAccess; Message: Error converting data type nvarchar to uniqueidentifier.; Line no: 193; Method: GetUser
+-------------------------------
+
+Log Entry : 1:57:55 PM Friday, July 3, 2020
+  :
+  :Exception in DataAccess; Message: 1 is not a valid value for Boolean.; Line no: 84; Method: AuthenticateUser
+-------------------------------
+
+Log Entry : 1:59:49 PM Friday, July 3, 2020
+  :
+  :Exception in DataAccess; Message: 1 is not a valid value for Boolean.; Line no: 84; Method: AuthenticateUser
+-------------------------------
+
+Log Entry : 2:00:44 PM Friday, July 3, 2020
+  :
+  :Exception in DataAccess; Message: 1 is not a valid value for Boolean.; Line no: 84; Method: AuthenticateUser
+-------------------------------
+
+Log Entry : 2:02:20 PM Friday, July 3, 2020
+  :
+  :Exception in DataAccess; Message: 1 is not a valid value for Boolean.; Line no: 84; Method: AuthenticateUser
+-------------------------------
+
+Log Entry : 6:12:46 PM Friday, July 3, 2020
+  :
+  :Exception in DataAccess; Message: @ConfigGUID is not a parameter for procedure ConfigTool_DataGrabber_Configuration_Get.; Line no: 438; Method: GetConfiguration
+-------------------------------
+
+Log Entry : 6:12:56 PM Friday, July 3, 2020
+  :
+  :Exception in DataAccess; Message: @ConfigGUID is not a parameter for procedure ConfigTool_DataGrabber_Configuration_Delete.; Line no: 573; Method: DeleteConfiguration
+-------------------------------
+
+Log Entry : 6:14:38 PM Friday, July 3, 2020
+  :
+  :Exception in DataAccess; Message: @ConfigGUID is not a parameter for procedure ConfigTool_DataGrabber_Configuration_Get.; Line no: 438; Method: GetConfiguration
+-------------------------------
+
+Log Entry : 6:40:00 PM Friday, July 3, 2020
+  :
+  :Exception in DataAccess; Message: @ConfigGUID is not a parameter for procedure ConfigTool_DataGrabber_Configuration_Get.; Line no: 438; Method: GetConfiguration
+-------------------------------
+
+Log Entry : 3:34:05 PM Monday, July 6, 2020
+  :
+  :Exception in DataAccess; Message: @ConfigGUID is not a parameter for procedure ConfigTool_DataGrabber_Configuration_Get.; Line no: 438; Method: GetConfiguration
+-------------------------------
+
+Log Entry : 3:34:25 PM Monday, July 6, 2020
+  :
+  :Exception in DataAccess; Message: @ConfigGUID is not a parameter for procedure ConfigTool_DataGrabber_Configuration_Delete.; Line no: 573; Method: DeleteConfiguration
+-------------------------------
+
+Log Entry : 3:37:56 PM Monday, July 6, 2020
+  :
+  :Exception in DataAccess; Message: @ConfigGUID is not a parameter for procedure ConfigTool_DataGrabber_Configuration_Delete.; Line no: 573; Method: DeleteConfiguration
+-------------------------------
+
+Log Entry : 10:18:14 AM Friday, July 17, 2020
+  :
+  :Exception in DataAccess; Message: Object cannot be cast from DBNull to other types.; Line no: 531; Method: GetConfiguration
+-------------------------------
+
+Log Entry : 10:19:49 AM Friday, July 17, 2020
+  :
+  :Exception in DataAccess; Message: Object cannot be cast from DBNull to other types.; Line no: 531; Method: GetConfiguration
+-------------------------------
+
+Log Entry : 10:20:50 AM Friday, July 17, 2020
+  :
+  :Exception in DataAccess; Message: Object cannot be cast from DBNull to other types.; Line no: 531; Method: GetConfiguration
+-------------------------------
+
+Log Entry : 10:24:49 AM Friday, July 17, 2020
+  :
+  :Exception in DataAccess; Message: Object cannot be cast from DBNull to other types.; Line no: 531; Method: GetConfiguration
+-------------------------------
+
+Log Entry : 10:27:10 AM Friday, July 17, 2020
+  :
+  :Exception in DataAccess; Message: Object cannot be cast from DBNull to other types.; Line no: 531; Method: GetConfiguration
+-------------------------------
+
+Log Entry : 6:43:40 PM Friday, July 17, 2020
+  :
+  :Exception in DataAccess; Message: Procedure or function ConfigTool_DataGrabber_Configuration_Add has too many arguments specified.; Line no: 605; Method: AddConfiguration
+-------------------------------
+
+Log Entry : 9:47:22 AM Monday, July 20, 2020
+  :
+  :Exception in DataAccess; Message: Invalid column name 'ShouldCheckElementInBody'.; Line no: 531; Method: GetConfiguration
+-------------------------------
+
+Log Entry : 10:43:22 AM Monday, July 20, 2020
+  :
+  :Exception in DataAccess; Message: String or binary data would be truncated.
+The statement has been terminated.; Line no: 686; Method: UpdateConfiguration
+-------------------------------
+
+Log Entry : 2:46:12 PM Monday, July 20, 2020
+  :
+  :Exception in DataAccess; Message: String or binary data would be truncated.
+The statement has been terminated.; Line no: 704; Method: UpdateConfiguration
+-------------------------------
+
+Log Entry : 2:46:25 PM Monday, July 20, 2020
+  :
+  :Exception in DataAccess; Message: String or binary data would be truncated.
+The statement has been terminated.; Line no: 704; Method: UpdateConfiguration
+-------------------------------

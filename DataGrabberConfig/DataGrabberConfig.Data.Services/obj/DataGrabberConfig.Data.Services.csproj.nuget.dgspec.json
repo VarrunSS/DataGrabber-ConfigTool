@@ -1,0 +1,316 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Data.Services\\DataGrabberConfig.Data.Services.csproj": {}
+  },
+  "projects": {
+    "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Data.Services\\DataGrabberConfig.Data.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Data.Services\\DataGrabberConfig.Data.Services.csproj",
+        "projectName": "DataGrabberConfig.Data.Services",
+        "projectPath": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Data.Services\\DataGrabberConfig.Data.Services.csproj",
+        "packagesPath": "C:\\Users\\insura00\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Data.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\insura00\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Logger\\DataGrabberConfig.Logger.csproj": {
+                "projectPath": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Logger\\DataGrabberConfig.Logger.csproj"
+              },
+              "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Services\\DataGrabberConfig.Services.csproj": {
+                "projectPath": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Services\\DataGrabberConfig.Services.csproj"
+              },
+              "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Utility\\DataGrabberConfig.Utility.csproj": {
+                "projectPath": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Utility\\DataGrabberConfig.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Logger\\DataGrabberConfig.Logger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Logger\\DataGrabberConfig.Logger.csproj",
+        "projectName": "DataGrabberConfig.Logger",
+        "projectPath": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Logger\\DataGrabberConfig.Logger.csproj",
+        "packagesPath": "C:\\Users\\insura00\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Logger\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\insura00\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Settings\\DataGrabberConfig.Settings.csproj": {
+                "projectPath": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Settings\\DataGrabberConfig.Settings.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Services\\DataGrabberConfig.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Services\\DataGrabberConfig.Services.csproj",
+        "projectName": "DataGrabberConfig.Services",
+        "projectPath": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Services\\DataGrabberConfig.Services.csproj",
+        "packagesPath": "C:\\Users\\insura00\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\insura00\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Logger\\DataGrabberConfig.Logger.csproj": {
+                "projectPath": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Logger\\DataGrabberConfig.Logger.csproj"
+              },
+              "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Utility\\DataGrabberConfig.Utility.csproj": {
+                "projectPath": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Utility\\DataGrabberConfig.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Settings\\DataGrabberConfig.Settings.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Settings\\DataGrabberConfig.Settings.csproj",
+        "projectName": "DataGrabberConfig.Settings",
+        "projectPath": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Settings\\DataGrabberConfig.Settings.csproj",
+        "packagesPath": "C:\\Users\\insura00\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Settings\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\insura00\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Utility\\DataGrabberConfig.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Utility\\DataGrabberConfig.Utility.csproj",
+        "projectName": "DataGrabberConfig.Utility",
+        "projectPath": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Utility\\DataGrabberConfig.Utility.csproj",
+        "packagesPath": "C:\\Users\\insura00\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\insura00\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Logger\\DataGrabberConfig.Logger.csproj": {
+                "projectPath": "D:\\GitHubSolution\\DataGrabber-ConfigTool\\DataGrabberConfig\\DataGrabberConfig.Logger\\DataGrabberConfig.Logger.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
